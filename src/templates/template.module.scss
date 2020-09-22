@@ -1,0 +1,21 @@
+.button {
+    background: #f4f4f4;
+    width: 100px;
+    padding: .25rem;
+    border-radius: .5rem;
+    display: grid;
+    place-items: center;
+    font-size: 0.75rem;
+    margin-top: 5rem;
+
+    a {
+        text-decoration: none;
+        color: #000000;
+        font-style: italic;
+        font-weight: 700;
+    }
+}
+
+.button:hover {
+    background: #e4e4e4;
+}
